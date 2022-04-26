@@ -1,0 +1,80 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  font-family: sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.logo-container {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.form-container {
+  width: 40%;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  margin: 10px 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  padding: 10px 0px;
+}
+
+.form-label {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.list-container {
+  margin: 20px 0px;
+}
+
+li {
+  margin: 5px 0px;
+}
+
+li::before {
+  content: "\2022";
+  color: blue;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+
+button {
+  width: 180px;
+
+  background-color: white;
+  color: gray;
+  border-color: gray;
+  margin-right: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+}
